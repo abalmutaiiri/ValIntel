@@ -1,11 +1,9 @@
 # ValIntel
 
-**A PySide6 desktop companion and experimental analytics project for VALORANT.**
-
-ValIntel brings agent browsing, match-status information, player and agent visualization, and historical match-analysis experiments into one Windows desktop interface. It was built in Python to explore desktop UI development, API integration, asynchronous tasks, caching, and data analysis.
+**A desktop companion project for VALORANT.**
 
 > [!IMPORTANT]
-> **Unofficial, experimental project.** ValIntel is not affiliated with, endorsed by, or approved by Riot Games. Some prototype features use undocumented VALORANT client endpoints or involve activities restricted by Riot's policies, including automated agent locking, identifying hidden players, pre-match scouting, and exposing historical Riot IDs. **Do not assume these features are permitted or safe to use on a live account.** Review [Riot's VALORANT developer policies](https://developer.riotgames.com/docs/valorant) and [general policies](https://developer.riotgames.com/policies/general) before using, modifying, or distributing the application.
+> **Unofficial, experimental project.** ValIntel is not affiliated with, endorsed by, or approved by Riot Games. Some prototype features use undocumented VALORANT client endpoints or involve activities restricted by Riot's policies, including automated agent locking, identifying hidden players, and pre-match scouting. **Do not assume these features are permitted or safe to use on a live account. USE AT YOUR OWN RISK** 
 
 ## Features
 
@@ -17,7 +15,6 @@ ValIntel brings agent browsing, match-status information, player and agent visua
 | **Live roster** | Displays available team/player and agent information. | Depends on the game phase and API responses; hidden-player identification is policy-restricted. |
 | **Match insights** | Compares available recent statistics and shows an experimental win estimate. | **Heuristic, not a trained AI model** or calibrated win probability. |
 | **Pattern Check** | Counts repeated opponents in up to 10 Competitive matches for an authorized player; highlights 4+ encounters. | Manual analysis trigger; partial histories are marked as partial. Repeated opponents do **not** prove wintrading. |
-| **Name History** | Organizes user-entered historical Riot ID observations by Episode/Act and detects observed change windows. | **Manual/CSV/JSON input only**. No automatic VTL scraping or historical-name API. Intended only for account-owner research; public exposure of historic IDs is restricted by Riot policy. |
 | **Settings** | Saves HenrikDEV API key using the OS credential store; configures refresh and optional stats loading. | Implemented; never commit API keys to GitHub. |
 | **Demo Mode** | Previews the interface with sample data, without sending VALORANT agent actions. | Available without an active game session. |
 

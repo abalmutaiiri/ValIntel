@@ -20,11 +20,8 @@
 
 ### Screenshots
 
-Screenshots are not included in this repository snapshot. To showcase the UI on GitHub, add a screenshot to `docs/screenshots/overview.png` and then uncomment the line below:
+ ![ValIntel overview](docs/screenshots/image.png) 
 
-<!-- ![ValIntel overview](docs/screenshots/overview.png) -->
-
-For a good demo, capture **Overview**, **Agent Select**, **Match Insights**, and **Pattern Check**, preferably in Demo Mode with fictional data.
 
 ## Requirements
 

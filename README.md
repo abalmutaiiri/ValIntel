@@ -84,18 +84,17 @@ The left sidebar currently **scrolls to sections of one dashboard**; it does not
 - **Name History:** import or record historical match observations for your own account.
 - **Settings:** API key, refresh, and stats preferences.
 
-### Understanding the match estimate
+## License
 
-The displayed percentage is a **heuristic score** derived from the available recent Competitive statistics. It is not a trained machine-learning model, is not calibrated against held-out match outcomes, and must not be interpreted as a scientifically validated probability of winning. If data is incomplete, the app may show **Not Enough Data** instead.
+**Copyright © 2026 ValIntel. All Rights Reserved.**
 
-### Understanding Pattern Check
+ValIntel is proprietary software. The source code is publicly available for viewing and portfolio evaluation purposes only.
 
-Pattern Check processes up to **10 distinct, usable Competitive matches** for each selected and authorized player. It compares player identifiers and team assignments and flags an opponent seen **at least four times on the other team**.
+Unauthorized copying, modification, redistribution, commercialization, or creation of derivative works is prohibited without prior written permission from the copyright holder.
 
-- It is **not** a cheat detector or proof of wintrading.
-- Shared matchmaking pools and rank/region/time-of-day effects can produce repeat opponents naturally.
-- The current **“I confirm permission” checkbox is not verified consent**. A publicly distributed, compliant product would need appropriate authorization and Riot approval/RSO integration where required.
-- A missing or partial history is shown as **unavailable/partial**, not “no suspicious activity.”
+See the [LICENSE](LICENSE) file for the full terms.
+
+**Disclaimer:** ValIntel is an independent project and is not affiliated with, endorsed by, or sponsored by Riot Games. VALORANT and related trademarks belong to Riot Games.
 
 
 

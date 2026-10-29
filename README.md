@@ -20,7 +20,7 @@
 
 ### Screenshots
 
- ![ValIntel overview](docs/screenshots/image.png) 
+ ![ValIntel overview](screenshots/image.png) 
 
 
 ## Requirements

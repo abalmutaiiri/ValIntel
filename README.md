@@ -77,8 +77,7 @@ The left sidebar currently **scrolls to sections of one dashboard**; it does not
 - **Agent Select:** agent search/filters and experimental selection/lock controls.
 - **Live Roster:** available player and agent information.
 - **Match Insights:** recent statistics, data coverage, and heuristic estimate.
-- **Pattern Check:** manually initiated repeated-opponent analysis of authorized histories.
-- **Name History:** import or record historical match observations for your own account.
+- **Pattern Check:** manually initiated repeated-opponent analysis of authorized histories. It checks for a potential wintrade.
 - **Settings:** API key, refresh, and stats preferences.
 
 ## License

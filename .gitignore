@@ -1,0 +1,25 @@
+# Local credentials / personal data
+.env
+.env.*
+!.env.example
+lockfile
+private_data/
+user_data/
+*.log
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Build products
+build/
+dist/
+*.spec
+nuitka-crash-report.xml
+
+# Editors
+.vscode/
+.idea/

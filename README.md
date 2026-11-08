@@ -29,7 +29,7 @@
 - **Python 3.12** recommended for development and packaging.
 - Internet connection for agent portraits and third-party API lookups.
 - VALORANT and the Riot Client running for live match features.
-- Optional: your own **HenrikDEV API key** for supported statistics/account lookups. Availability depends on the provider.
+- Optional: your own **HenrikDEV API key** for supported statistics/account lookups. Available at HenrikDevAPI website.
 
 Python dependencies are listed in `requirements.txt` (`PySide6`, `requests`, and `keyring`).
 
